@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF95DEEA150EF7710091E4DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF95DEE9150EF7710091E4DD /* Cocoa.framework */; };
+		AF95DEF4150EF7710091E4DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF95DEF2150EF7710091E4DD /* InfoPlist.strings */; };
+		AF95DEF6150EF7710091E4DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95DEF5150EF7710091E4DD /* main.m */; };
+		AF95DEFA150EF7710091E4DD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AF95DEF8150EF7710091E4DD /* Credits.rtf */; };
+		AF95DEFD150EF7710091E4DD /* shamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95DEFC150EF7710091E4DD /* shamAppDelegate.m */; };
+		AF95DF00150EF7710091E4DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF95DEFE150EF7710091E4DD /* MainMenu.xib */; };
+		AF95DF08150EF9250091E4DD /* controller.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95DF07150EF9250091E4DD /* controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF95DEE5150EF7710091E4DD /* SWich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF95DEE9150EF7710091E4DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF95DEEC150EF7710091E4DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AF95DEED150EF7710091E4DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF95DEEE150EF7710091E4DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF95DEF1150EF7710091E4DD /* SWich-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWich-Info.plist"; sourceTree = "<group>"; };
+		AF95DEF3150EF7710091E4DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF95DEF5150EF7710091E4DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF95DEF7150EF7710091E4DD /* SWich-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWich-Prefix.pch"; sourceTree = "<group>"; };
+		AF95DEF9150EF7710091E4DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AF95DEFB150EF7710091E4DD /* shamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shamAppDelegate.h; sourceTree = "<group>"; };
+		AF95DEFC150EF7710091E4DD /* shamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shamAppDelegate.m; sourceTree = "<group>"; };
+		AF95DEFF150EF7710091E4DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AF95DF06150EF9250091E4DD /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		AF95DF07150EF9250091E4DD /* controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF95DEE2150EF7710091E4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF95DEEA150EF7710091E4DD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF95DEDA150EF7710091E4DD = {
+			isa = PBXGroup;
+			children = (
+				AF95DEEF150EF7710091E4DD /* SWich */,
+				AF95DEE8150EF7710091E4DD /* Frameworks */,
+				AF95DEE6150EF7710091E4DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF95DEE6150EF7710091E4DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF95DEE5150EF7710091E4DD /* SWich.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF95DEE8150EF7710091E4DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF95DEE9150EF7710091E4DD /* Cocoa.framework */,
+				AF95DEEB150EF7710091E4DD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF95DEEB150EF7710091E4DD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF95DEEC150EF7710091E4DD /* AppKit.framework */,
+				AF95DEED150EF7710091E4DD /* CoreData.framework */,
+				AF95DEEE150EF7710091E4DD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AF95DEEF150EF7710091E4DD /* SWich */ = {
+			isa = PBXGroup;
+			children = (
+				AF95DEFB150EF7710091E4DD /* shamAppDelegate.h */,
+				AF95DEFC150EF7710091E4DD /* shamAppDelegate.m */,
+				AF95DF06150EF9250091E4DD /* controller.h */,
+				AF95DF07150EF9250091E4DD /* controller.m */,
+				AF95DEFE150EF7710091E4DD /* MainMenu.xib */,
+				AF95DEF0150EF7710091E4DD /* Supporting Files */,
+			);
+			path = SWich;
+			sourceTree = "<group>";
+		};
+		AF95DEF0150EF7710091E4DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF95DEF1150EF7710091E4DD /* SWich-Info.plist */,
+				AF95DEF2150EF7710091E4DD /* InfoPlist.strings */,
+				AF95DEF5150EF7710091E4DD /* main.m */,
+				AF95DEF7150EF7710091E4DD /* SWich-Prefix.pch */,
+				AF95DEF8150EF7710091E4DD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF95DEE4150EF7710091E4DD /* SWich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF95DF03150EF7710091E4DD /* Build configuration list for PBXNativeTarget "SWich" */;
+			buildPhases = (
+				AF95DEE1150EF7710091E4DD /* Sources */,
+				AF95DEE2150EF7710091E4DD /* Frameworks */,
+				AF95DEE3150EF7710091E4DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWich;
+			productName = SWich;
+			productReference = AF95DEE5150EF7710091E4DD /* SWich.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF95DEDC150EF7710091E4DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = OscilloSoft;
+			};
+			buildConfigurationList = AF95DEDF150EF7710091E4DD /* Build configuration list for PBXProject "SWich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF95DEDA150EF7710091E4DD;
+			productRefGroup = AF95DEE6150EF7710091E4DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF95DEE4150EF7710091E4DD /* SWich */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF95DEE3150EF7710091E4DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF95DEF4150EF7710091E4DD /* InfoPlist.strings in Resources */,
+				AF95DEFA150EF7710091E4DD /* Credits.rtf in Resources */,
+				AF95DF00150EF7710091E4DD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF95DEE1150EF7710091E4DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF95DEF6150EF7710091E4DD /* main.m in Sources */,
+				AF95DEFD150EF7710091E4DD /* shamAppDelegate.m in Sources */,
+				AF95DF08150EF9250091E4DD /* controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF95DEF2150EF7710091E4DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF95DEF3150EF7710091E4DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF95DEF8150EF7710091E4DD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF95DEF9150EF7710091E4DD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AF95DEFE150EF7710091E4DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF95DEFF150EF7710091E4DD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF95DF01150EF7710091E4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF95DF02150EF7710091E4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF95DF04150EF7710091E4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWich/SWich-Prefix.pch";
+				INFOPLIST_FILE = "SWich/SWich-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF95DF05150EF7710091E4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWich/SWich-Prefix.pch";
+				INFOPLIST_FILE = "SWich/SWich-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF95DEDF150EF7710091E4DD /* Build configuration list for PBXProject "SWich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95DF01150EF7710091E4DD /* Debug */,
+				AF95DF02150EF7710091E4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF95DF03150EF7710091E4DD /* Build configuration list for PBXNativeTarget "SWich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF95DF04150EF7710091E4DD /* Debug */,
+				AF95DF05150EF7710091E4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF95DEDC150EF7710091E4DD /* Project object */;
+}
